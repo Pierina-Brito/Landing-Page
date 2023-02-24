@@ -1,6 +1,13 @@
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import $ from 'jquery';
+import Popper from 'popper.js';
+
 //import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
+
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
